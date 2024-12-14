@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={
+        <Route path='/usinfinity' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Hero />
