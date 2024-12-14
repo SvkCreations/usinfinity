@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/usinfinity/static/css/main.78e7b9e2.css",
+    "main.js": "/usinfinity/static/js/main.e21dc61f.js",
+    "static/js/453.57978b45.chunk.js": "/usinfinity/static/js/453.57978b45.chunk.js",
+    "static/media/journey.png": "/usinfinity/static/media/journey.fdef5815cfcc8b6a06a4.png",
+    "static/media/hero.png": "/usinfinity/static/media/hero.aafc836c87aaf63fb87d.png",
+    "static/media/gallery (1).jpg": "/usinfinity/static/media/gallery (1).bcca7c3d51b5fb8d6099.jpg",
+    "static/media/cake.png": "/usinfinity/static/media/cake.5f5eca39f22008d43a7c.png",
+    "static/media/gallery (8).jpg": "/usinfinity/static/media/gallery (8).1737bec494b648a3a948.jpg",
+    "static/media/gallery (6).jpg": "/usinfinity/static/media/gallery (6).792bf5f3f28aef60ff93.jpg",
+    "static/media/gallery (7).jpg": "/usinfinity/static/media/gallery (7).3927921b7961f1f04bb0.jpg",
+    "static/media/gallery (4).jpg": "/usinfinity/static/media/gallery (4).94be0473e827d94bf598.jpg",
+    "static/media/about.jpg": "/usinfinity/static/media/about.9d1f0c71e8bcec293781.jpg",
+    "static/media/gallery (11).jpg": "/usinfinity/static/media/gallery (11).9d1f0c71e8bcec293781.jpg",
+    "static/media/gallery (2).jpg": "/usinfinity/static/media/gallery (2).9d1f0c71e8bcec293781.jpg",
+    "static/media/gallery (12).jpg": "/usinfinity/static/media/gallery (12).d0c2afd42276ffa9a04f.jpg",
+    "static/media/gallery (3).jpg": "/usinfinity/static/media/gallery (3).863285beec3e338c7af2.jpg",
+    "static/media/gallery (16).jpg": "/usinfinity/static/media/gallery (16).d373d508a8ed42757dbf.jpg",
+    "static/media/gallery (10).jpg": "/usinfinity/static/media/gallery (10).42752f28f7bcdfef31a9.jpg",
+    "static/media/gallery (9).jpg": "/usinfinity/static/media/gallery (9).f527bf8ab0a176b5b871.jpg",
+    "static/media/gallery (15).jpg": "/usinfinity/static/media/gallery (15).42db6cdcf062d99c0313.jpg",
+    "static/media/gallery (5).jpg": "/usinfinity/static/media/gallery (5).42db6cdcf062d99c0313.jpg",
+    "static/media/gallery (13).jpg": "/usinfinity/static/media/gallery (13).f443694d9dcad2273320.jpg",
+    "static/media/gallery (14).jpg": "/usinfinity/static/media/gallery (14).8780297f159b19bfe9ea.jpg",
+    "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
+    "index.html": "/usinfinity/index.html",
+    "main.78e7b9e2.css.map": "/usinfinity/static/css/main.78e7b9e2.css.map",
+    "main.e21dc61f.js.map": "/usinfinity/static/js/main.e21dc61f.js.map",
+    "453.57978b45.chunk.js.map": "/usinfinity/static/js/453.57978b45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e7b9e2.css",
+    "static/js/main.e21dc61f.js"
+  ]
+}
