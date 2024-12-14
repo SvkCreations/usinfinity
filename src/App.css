@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Tangerine:wght@400;700&display=swap');
+
+/* Colour Code: #D64045, #E9FFF9, #9ED8DB, #467599, #1D3354, #365c1e */
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Navbar CSS */
+
+.nav-link {
+  color: black;
+}
+
+.nav-link::after {
+  content: "";
+  display: flex;
+  height: 3px;
+  width: 0px;
+  background-color: #1D3354;
+}
+
+.active {
+  background: none !important;
+  color: black !important;
+}
+
+.active::after {
+  content: "";
+  display: flex;
+  height: 3px;
+  width: 50px;
+  background-color: #365c1e;
+}
+
+.nav-link:hover {
+  color: #365c1e;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: #365c1e;
+  transition-duration: .5s;
+}
+
+
+/* Hero Section CSS */
+h1 {
+  font-family: "Tangerine", cursive;
+}
+
+.primary-btn {
+  background-color: #365c1e;
+  border: 2px solid #365c1e;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: none;
+  border: 2px solid #365c1e;
+  color: #365c1e;
+  transition-duration: .5s;
+}
+
+.secondary-btn {
+  background: none;
+  border: 2px solid #365c1e;
+  color: #365c1e;
+}
+
+.secondary-btn:hover {
+  background-color: #365c1e;
+  border: 2px solid #365c1e;
+  color: white;
+  transition-duration: .5s;
+}
+
+/* GalleryFeaturette CSS */
+.card {
+  height: 500px;
+  border: none;
+}
+
+.scroll {
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  bottom: 40px;
+  z-index: 1;
+  right:8%;
+  cursor: pointer;
+}
