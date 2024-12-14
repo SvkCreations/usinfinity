@@ -44,6 +44,7 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Gallery/>
+            <ScrollToTop/>
             <Footer />
           </div>
         }></Route>
@@ -52,6 +53,7 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Journey/>
+            <ScrollToTop/>
             <Footer />
           </div>
         }></Route>
@@ -61,6 +63,7 @@ function App() {
             <Navbar />
             <About/>
             <Preferences/>
+            <ScrollToTop/>
             <Footer />
           </div>
         }></Route>
@@ -69,6 +72,7 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Todo/>
+            <ScrollToTop/>
             <Footer />
           </div>
         }></Route>
