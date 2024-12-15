@@ -18,6 +18,7 @@ import Todo from './components/Todo';
 import Footer from './components/Footer';
 import Preferences from './components/Preferences';
 import ScrollToTop from './components/ScrollToTop';
+import Test from './components/Test';
 
 function App() {
   useEffect(() => {
@@ -71,7 +72,7 @@ function App() {
         <Route path='/todo' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
-            <Todo/>
+           <Test/>
             <ScrollToTop/>
             <Footer />
           </div>

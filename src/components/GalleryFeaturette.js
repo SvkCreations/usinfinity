@@ -1,8 +1,8 @@
 import React from 'react'
-import img01 from '../images/gallery/gallery (1).jpg'
-import img02 from '../images/gallery/gallery (2).jpg'
-import img03 from '../images/gallery/gallery (3).jpg'
-import img04 from '../images/gallery/gallery (4).jpg'
+import img01 from '../images/gallery/2023/nandan_2023.jpeg'
+import img02 from '../images/gallery/2023/hiland park 02_2023.jpg'
+import img03 from '../images/gallery/2023/dakshineshwar 02_2024.jpg'
+import img04 from '../images/gallery/2023/lake holi_2024.jpg'
 import { Icon } from '@iconify/react/dist/iconify.js'
 import { Link } from 'react-router'
 

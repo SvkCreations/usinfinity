@@ -95,3 +95,18 @@ h1 {
   right:8%;
   cursor: pointer;
 }
+
+
+/* Gallery CSS */
+.gallery_line{
+  height: 1px;
+  background-color: rgb(74, 74, 74);
+  opacity: .5;
+}
+/* #search{
+  background-image: url('../src/images/search.png');
+  right: 10px;
+  background-position-x: right; 
+  background-position-y: center; 
+  background-repeat: no-repeat;
+} */
