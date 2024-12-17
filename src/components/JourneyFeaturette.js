@@ -6,7 +6,7 @@ import { Link } from 'react-router'
 export default function JourneyFeaturette() {
     return (
         <div>
-            <div className="row featurette d-flex flex-row-reverse align-items-center my-5 py-3 py-md-5">
+            <div className="row featurette d-flex flex-row-reverse align-items-center my-3 py-3 py-md-5">
                 <div className="col-md-7 order-md-2" data-aos="fade-up">
                     <h1 className="featurette-heading fw-bold display-1" data-aos="fade-up">Our Journey So far</h1>
                     <p className='col col-md-10'>Looking back on our journey together fills my heart with so much gratitude. We’ve shared beautiful highs, faced challenges with strength, and grown closer through it all. Every laugh, every adventure, and even the quiet moments have made our bond deeper and more meaningful.</p>

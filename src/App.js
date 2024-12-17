@@ -36,7 +36,7 @@ function App() {
             {/* <Explore/> */}
             <JourneyFeaturette />
             <GalleryFeaturette />
-            <ScrollToTop/>
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>
@@ -44,8 +44,8 @@ function App() {
         <Route path='/gallery' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
-            <Gallery/>
-            <ScrollToTop/>
+            <Gallery />
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>
@@ -53,8 +53,8 @@ function App() {
         <Route path='/journey' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
-            <Journey/>
-            <ScrollToTop/>
+            <Journey />
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>
@@ -62,18 +62,18 @@ function App() {
         <Route path='/about' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
-            <About/>
-            <Preferences/>
-            <ScrollToTop/>
+            <About />
+            <Preferences />
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>
 
-        <Route path='/todo' element={
+        <Route path='/quiz' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
-           <Test/>
-            <ScrollToTop/>
+            <Test />
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>

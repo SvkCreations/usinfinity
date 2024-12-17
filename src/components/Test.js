@@ -1,59 +1,78 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import JourneyFeaturette from './JourneyFeaturette';
 
-const SearchImages = () => {
-    function importAllImages(r) {
-        return r.keys().map(r);
-      }
-      
-const images_2023 = importAllImages(require.context('../images/gallery/2023/', false, /\.(png|jpe?g|svg)$/));
+export default function Quiz() {
+  const questions = [
+    {
+      question: "Where was our first date?",
+      options: ["Nandan", "Hiland Park", "Patuli", "Lake"],
+      answer: "Patuli"
+    },
+    {
+      question: "What are my favorite colors?",
+      options: ["Blue & Black", "Red & white", "Green & Yellow", "Purple & Grey"],
+      answer: "Blue & Black"
+    },
+    {
+      question: "When did we talk for the first time?",
+      options: ["5th Dec, 2023", "18th Nov, 2023", "24th November, 2023", "19th November, 2023"],
+      answer: "18th Nov, 2023"
+    }
+  ];
 
-  // State for managing search query and filtered images
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filteredImages, setFilteredImages] = useState(images_2023);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
 
-  // Handle the search input change
-  const handleSearch = (e) => {
-    const query = e.target.value.toLowerCase();
-    setSearchQuery(query);
+  const handleAnswerOptionClick = (option) => {
+    if (option === questions[currentQuestion].answer) {
+      setScore(score + 1);
+    }
 
-    // Filter images based on the search query
-    if (query === "") {
-      setFilteredImages(images_2023);
+    const nextQuestion = currentQuestion + 1;
+    if (nextQuestion < questions.length) {
+      setCurrentQuestion(nextQuestion);
     } else {
-      const filtered = images_2023.filter((image) =>
-        image.toLowerCase().includes(query)
-      );
-      setFilteredImages(filtered);
+      setShowScore(true);
     }
   };
 
-  return (
-    <div>
-      <h1>Image Search</h1>
-      <input
-        type="text"
-        placeholder="Search for images"
-        value={searchQuery}
-        onChange={handleSearch}
-      />
 
-      <div className="image-gallery">
-        {filteredImages.length > 0 ? (
-          filteredImages.map((image, index) => (
-            <div className="col" key={index} data-aos="fade-up">
-              <div className="card card-cover overflow-hidden rounded-4" >
-                <div className="d-flex justify-content-center h-100 text-white text-shadow-1">
-                  <img className='img-fluid text-center' src={image} style={{ height: '100%', width: '100%', objectFit: 'cover' }} />
-                </div>
-              </div>
-            </div>
-          ))
-        ) : (
-          <p>No images found</p>
-        )}
+  return (
+    <div className="py-5">
+      <div className="text-center mb-5">
+        <h1 className='display-2 fw-bold'>Welcome to Our Special Quiz!</h1>
+        <p>Test how well you remember our special moments. Have fun!</p>
       </div>
+      {showScore ? (
+        <div className="alert alert-success text-center" role="alert">
+          You scored {score} out of {questions.length}!
+        </div>
+      ) : (
+        <div className="card text-center">
+          <div className="card-body">
+            <h2 className="card-title">{questions[currentQuestion].question}</h2>
+            <div className="d-flex flex-column mt-4" role="group">
+              {questions[currentQuestion].options.map((option) => (
+                <button
+                  key={option}
+                  className="btn btn-lg secondary-btn mb-2"
+                  onClick={() => handleAnswerOptionClick(option)}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+
+          </div>
+          <div className="text-center mb-5">
+            <p className='lead fw-bold p-0 m-0'>Having problems answering those quizes?</p>
+            <p>Scroll down, Explore our Jouney and find out!</p>
+          </div>
+        </div>
+      )}
+      <JourneyFeaturette />
     </div>
   );
-};
+}
 
-export default SearchImages;

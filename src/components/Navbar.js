@@ -27,9 +27,9 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link to='/gallery' className={location.pathname === '/gallery'? "active nav-link": "nav-link" }>Our Gallery</Link>
               </li>
-              {/* <li className="nav-item">
-                <Link to='/todo' className={location.pathname === '/gallery'? "active nav-link": "nav-link" }>Todo</Link>
-              </li> */}
+              <li className="nav-item">
+                <Link to='/quiz' className={location.pathname === '/gallery'? "active nav-link": "nav-link" }>Take a Quiz</Link>
+              </li>
             </ul>
             <form className="d-flex" role="search">
 
