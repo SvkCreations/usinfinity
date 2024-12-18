@@ -19,6 +19,7 @@ import Footer from './components/Footer';
 import Preferences from './components/Preferences';
 import ScrollToTop from './components/ScrollToTop';
 import Test from './components/Test';
+import Playlist from './components/Playlist';
 
 function App() {
   useEffect(() => {
@@ -74,6 +75,14 @@ function App() {
             <Navbar />
             <Test />
             <ScrollToTop />
+            <Footer />
+          </div>
+        }></Route>
+
+        <Route path='/playlist' element={
+          <div className="App p-4 p-md-4 mx-0 mx-md-5">
+            <Navbar />
+            <Playlist />
             <Footer />
           </div>
         }></Route>

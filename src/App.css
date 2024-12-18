@@ -46,6 +46,18 @@ body {
   background-color: #365c1e;
   transition-duration: .5s;
 }
+.quiz-link{
+  background-color: #365c1e;
+  border: 2px solid #365c1e;
+  color: white;
+  text-decoration: none;
+}
+.quiz-link:hover{
+  background: none !important;
+  border: 2px solid #365c1e !important;
+  color: #365c1e !important;
+  transition-duration: .75s;
+}
 
 
 /* Hero Section CSS */

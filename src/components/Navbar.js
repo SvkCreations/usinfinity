@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/Logo.png'
 import { Link, useLocation } from "react-router-dom";
+import { Icon } from '@iconify/react/dist/iconify.js';
 
 export default function Navbar() {
   const location = useLocation()
@@ -28,12 +29,12 @@ export default function Navbar() {
                 <Link to='/gallery' className={location.pathname === '/gallery'? "active nav-link": "nav-link" }>Our Gallery</Link>
               </li>
               <li className="nav-item">
-                <Link to='/quiz' className={location.pathname === '/gallery'? "active nav-link": "nav-link" }>Take a Quiz</Link>
+                <Link to='/playlist' className={location.pathname === '/playlist'? "active nav-link": "nav-link" }>Our Playlist</Link>
+              </li>
+              <li className="nav-item">
+                <Link to='/quiz' className="d-flex align-items-center p-2 gap-1 quiz-link mx-md-3 my-2 my-md-0"><Icon icon="mage:light-bulb" width="24" height="24" />Take a Quiz</Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-
-            </form>
           </div>
         </div>
       </nav>

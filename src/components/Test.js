@@ -17,6 +17,21 @@ export default function Quiz() {
       question: "When did we talk for the first time?",
       options: ["5th Dec, 2023", "18th Nov, 2023", "24th November, 2023", "19th November, 2023"],
       answer: "18th Nov, 2023"
+    },
+    {
+      question: "When did I propose to you?",
+      options: ["14th Nov, 2024", "10th Feb, 2024", "18th November, 2024", "14th Feb, 2024" ],
+      answer: "14th Feb, 2024"
+    },
+    {
+      question: "When did we kiss in the rain for the first time?",
+      options: ["3rd June, 2024", "15th June, 2024", "9th May, 2024", "12th May"],
+      answer: "9th May, 2024"
+    },
+    {
+      question: "When did we go to watch IPL at the Eden Gardens?",
+      options: ["14th April, 2024", "20th April, 2024", "3rd May, 2024", "29th April, 2024"],
+      answer: "14th April, 2024"
     }
   ];
 
