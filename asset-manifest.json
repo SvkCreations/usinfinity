@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/usinfinity/static/css/main.9cfc73dc.css",
-    "main.js": "/usinfinity/static/js/main.2c6dc004.js",
+    "main.css": "/usinfinity/static/css/main.3ac38f48.css",
+    "main.js": "/usinfinity/static/js/main.f2a433ac.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey.png": "/usinfinity/static/media/journey.fdef5815cfcc8b6a06a4.png",
     "static/media/nandan_2023.jpeg": "/usinfinity/static/media/nandan_2023.db2bbb3ea698eb8b6eb4.jpeg",
@@ -41,12 +41,12 @@
     "static/media/princep ghat ganda arti_2023.jpg": "/usinfinity/static/media/princep ghat ganda arti_2023.9e2d90aa7c11bd091aee.jpg",
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
-    "main.9cfc73dc.css.map": "/usinfinity/static/css/main.9cfc73dc.css.map",
-    "main.2c6dc004.js.map": "/usinfinity/static/js/main.2c6dc004.js.map",
+    "main.3ac38f48.css.map": "/usinfinity/static/css/main.3ac38f48.css.map",
+    "main.f2a433ac.js.map": "/usinfinity/static/js/main.f2a433ac.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cfc73dc.css",
-    "static/js/main.2c6dc004.js"
+    "static/css/main.3ac38f48.css",
+    "static/js/main.f2a433ac.js"
   ]
 }
