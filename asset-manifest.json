@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/usinfinity/static/css/main.3ac38f48.css",
-    "main.js": "/usinfinity/static/js/main.f2a433ac.js",
+    "main.css": "/usinfinity/static/css/main.6da84630.css",
+    "main.js": "/usinfinity/static/js/main.8868c4d1.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey.png": "/usinfinity/static/media/journey.fdef5815cfcc8b6a06a4.png",
     "static/media/nandan_2023.jpeg": "/usinfinity/static/media/nandan_2023.db2bbb3ea698eb8b6eb4.jpeg",
@@ -17,6 +17,7 @@
     "static/media/dakshineshwar 02_2024.jpg": "/usinfinity/static/media/dakshineshwar 02_2024.0b07f1f336f32a6c8524.jpg",
     "static/media/quest mall 02_2024.jpg": "/usinfinity/static/media/quest mall 02_2024.f302d867b60567260dc1.jpg",
     "static/media/nandan 03_2024.jpg": "/usinfinity/static/media/nandan 03_2024.7e0d5d21172b3fe1492a.jpg",
+    "static/media/countbg.jpg": "/usinfinity/static/media/countbg.41190be9f44d49885710.jpg",
     "static/media/hiland park 02_2023.jpg": "/usinfinity/static/media/hiland park 02_2023.ba4ef50c0bba63d9b606.jpg",
     "static/media/cake.png": "/usinfinity/static/media/cake.5f5eca39f22008d43a7c.png",
     "static/media/navina_2024.jpg": "/usinfinity/static/media/navina_2024.75498db851048f201c1c.jpg",
@@ -41,12 +42,12 @@
     "static/media/princep ghat ganda arti_2023.jpg": "/usinfinity/static/media/princep ghat ganda arti_2023.9e2d90aa7c11bd091aee.jpg",
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
-    "main.3ac38f48.css.map": "/usinfinity/static/css/main.3ac38f48.css.map",
-    "main.f2a433ac.js.map": "/usinfinity/static/js/main.f2a433ac.js.map",
+    "main.6da84630.css.map": "/usinfinity/static/css/main.6da84630.css.map",
+    "main.8868c4d1.js.map": "/usinfinity/static/js/main.8868c4d1.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ac38f48.css",
-    "static/js/main.f2a433ac.js"
+    "static/css/main.6da84630.css",
+    "static/js/main.8868c4d1.js"
   ]
 }
