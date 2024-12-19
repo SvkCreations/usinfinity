@@ -4,6 +4,7 @@
 
 body {
   font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar CSS */
@@ -121,4 +122,16 @@ h1 {
   background-position: 15px center;
   background-repeat: no-repeat;
   border: 1px solid #365c1e;
+}
+
+
+/* Countdown animation */
+.countdown{
+  background-image: url('../src/images/countbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.times{
+  background-color: rgba(0, 0, 0, 0.6);
 }

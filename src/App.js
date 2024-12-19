@@ -14,12 +14,13 @@ import Cake from './components/Cake';
 import JourneyFeaturette from './components/JourneyFeaturette';
 import Journey from './components/Journey';
 import About from './components/About';
-import Todo from './components/Todo';
 import Footer from './components/Footer';
 import Preferences from './components/Preferences';
 import ScrollToTop from './components/ScrollToTop';
 import Test from './components/Test';
-import Playlist from './components/Playlist';
+import Playlist from './components/Playlist'
+import ConfettiEffect from './components/ConfettiEffect';
+import BirthdayCountdown from './components/BirthdayCountdown';
 
 function App() {
   useEffect(() => {
@@ -32,9 +33,9 @@ function App() {
         <Route path='/usinfinity' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
+            <ConfettiEffect />
             <Hero />
             <Cake />
-            {/* <Explore/> */}
             <JourneyFeaturette />
             <GalleryFeaturette />
             <ScrollToTop />
@@ -83,9 +84,17 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Playlist />
+            <ScrollToTop />
             <Footer />
           </div>
         }></Route>
+
+        <Route path='/countdown' element={
+          <div className="App" style={{maxHeight:'100vh', overflowY:'hidden'}}>
+            <BirthdayCountdown/>
+          </div>
+        }></Route>
+
 
 
       </Routes>
