@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const QuotesComponent = () => {
+  const [quotes, setQuotes] = useState([]);
   const [error, setError] = useState(null);
 
   const api_url = "https://zenquotes.io/api/quotes/";
@@ -9,15 +10,19 @@ const QuotesComponent = () => {
     const fetchQuotes = async () => {
       try {
         const response = await fetch(api_url, {
-          mode: 'no-cors', // Disable CORS
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*', // Adding CORS header
+          },
         });
 
-        // With 'no-cors', response data is inaccessible
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        console.log('Response received but cannot access data in no-cors mode.');
+        const data = await response.json();
+        setQuotes(data);
       } catch (err) {
         setError(err.message);
       }
@@ -28,9 +33,19 @@ const QuotesComponent = () => {
 
   return (
     <div>
-      <h1>Quotes</h1>
+      <h1>Inspirational Quotes</h1>
       {error && <p style={{ color: 'red' }}>Error: {error}</p>}
-      {!error && <p>Fetching quotes...</p>}
+      {quotes.length > 0 ? (
+        <ul>
+          {quotes.map((quote, index) => (
+            <li key={index}>
+              "{quote.q}" - <strong>{quote.a}</strong>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        !error && <p>Loading...</p>
+      )}
     </div>
   );
 };
