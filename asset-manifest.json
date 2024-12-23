@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/usinfinity/static/css/main.6da84630.css",
-    "main.js": "/usinfinity/static/js/main.a677dbca.js",
+    "main.js": "/usinfinity/static/js/main.1c6fbb42.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/puja03_2024.jpg": "/usinfinity/static/media/puja03_2024.7787e12baaab916fbd39.jpg",
     "static/media/puja02_2024.jpg": "/usinfinity/static/media/puja02_2024.4b78a789b8491eeff8be.jpg",
@@ -61,11 +61,11 @@
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
     "main.6da84630.css.map": "/usinfinity/static/css/main.6da84630.css.map",
-    "main.a677dbca.js.map": "/usinfinity/static/js/main.a677dbca.js.map",
+    "main.1c6fbb42.js.map": "/usinfinity/static/js/main.1c6fbb42.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6da84630.css",
-    "static/js/main.a677dbca.js"
+    "static/js/main.1c6fbb42.js"
   ]
 }
