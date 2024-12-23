@@ -21,6 +21,7 @@ import Test from './components/Test';
 import Playlist from './components/Playlist'
 import ConfettiEffect from './components/ConfettiEffect';
 import BirthdayCountdown from './components/BirthdayCountdown';
+import QuotesComponent from './components/Quotes';
 
 function App() {
   useEffect(() => {
@@ -84,6 +85,7 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Playlist />
+            <QuotesComponent/>
             <ScrollToTop />
             <Footer />
           </div>
