@@ -1,53 +1,26 @@
-import React, { useEffect, useState } from 'react';
-
-const QuotesComponent = () => {
-  const [quotes, setQuotes] = useState([]);
-  const [error, setError] = useState(null);
-
-  const api_url = "https://zenquotes.io/api/quotes/";
-
+import React, { useState, useEffect } from "react";
+function QuotesComponent() {
+  const [joke, setJoke] = useState(null);
   useEffect(() => {
-    const fetchQuotes = async () => {
-      try {
-        const response = await fetch(api_url, {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*', // Adding CORS header
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const data = await response.json();
-        setQuotes(data);
-      } catch (err) {
-        setError(err.message);
-      }
-    };
-
-    fetchQuotes();
+    fetch("https://restcountries-v1.p.rapidapi.com/callingcode/50", {
+      method: "GET",
+      headers: {
+        'x-rapidapi-key': '169d01c0c4msh521c559d1a825fep1068a1jsn66ec413a8e08',
+		'x-rapidapi-host': 'restcountries-v1.p.rapidapi.com'
+      },
+    })
+      .then((response) => response.text())
+      .then((data) => {
+        // setJoke(data[0].joke);
+        console.log(data);
+      })
+      .catch((error) => console.log(error));
   }, []);
-
   return (
     <div>
-      <h1>Inspirational Quotes</h1>
-      {error && <p style={{ color: 'red' }}>Error: {error}</p>}
-      {quotes.length > 0 ? (
-        <ul>
-          {quotes.map((quote, index) => (
-            <li key={index}>
-              "{quote.q}" - <strong>{quote.a}</strong>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        !error && <p>Loading...</p>
-      )}
+      <h2>Joke of the day:</h2>
+      {joke && <p>{joke}</p>}
     </div>
   );
-};
-
+}
 export default QuotesComponent;
