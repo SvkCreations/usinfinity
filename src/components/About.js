@@ -1,5 +1,6 @@
 import React from 'react'
 import about from '../images/about.jpg'
+import DreamsAndGoals from './Goals'
 
 export default function About() {
   return (
