@@ -23,8 +23,15 @@ import ConfettiEffect from './components/ConfettiEffect';
 import BirthdayCountdown from './components/BirthdayCountdown';
 import QuotesComponent from './components/Quotes';
 import DreamsAndGoals from './components/Goals';
+import Places from './components/Places';
 
 function App() {
+  function importAllImages(r) {
+    return r.keys().map(r);
+  }
+
+  const images = importAllImages(require.context('./images/places/', false, /\.(png|jpe?g|svg)$/));
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -38,8 +45,9 @@ function App() {
             <ConfettiEffect />
             <Hero />
             <Cake />
-            <JourneyFeaturette />
             <GalleryFeaturette />
+            <JourneyFeaturette />
+            <Places images={images}/>
             <ScrollToTop />
             <Footer />
           </div>
