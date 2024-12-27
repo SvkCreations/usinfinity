@@ -1,5 +1,8 @@
 import React from 'react'
-import journey from '../images/journey.png'
+import journey01 from '../images/journey01-01.png'
+import journey02 from '../images/journey02-01.png'
+import journey03 from '../images/journey03-01.png'
+import journey04 from '../images/journey04-01.png'
 
 export default function Journey() {
   return (
@@ -29,7 +32,7 @@ export default function Journey() {
           <p data-aos="fade-up">It was her birthday and also the Valentine's day. So I couldn't think of a better day to <b>PROPOSE</b> to her and she said <b>YES!</b></p>
         </div>
         <div className="col-md-5 order-md-1" data-aos="fade-up">
-          <img src={journey} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
+          <img src={journey01} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
         </div>
       </div>
 
@@ -54,7 +57,7 @@ export default function Journey() {
           <p data-aos="fade-up">We went to watch IPL match at the Eden Gardens. It was straight out of our bucket list.</p>
         </div>
         <div className="col-md-7 order-md-1" data-aos="fade-up">
-          <img src={journey} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
+          <img src={journey02} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
         </div>
       </div>
 
@@ -79,7 +82,7 @@ export default function Journey() {
           <p data-aos="fade-up">Just a day before my birthday, we went to Dhakuria Lake to celebrate and she gifted me a beautiful watch for my birthday.</p>
         </div>
         <div className="col-md-5 order-md-1" data-aos="fade-up">
-          <img src={journey} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
+          <img src={journey03} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
         </div>
       </div>
 
@@ -98,7 +101,7 @@ export default function Journey() {
           <p data-aos="fade-up">It was our first anniversary. We went on a private room date to celebrate that. Cut a cake, had lunch together. Later we watched a movie and porn together and had some really intimate moment together for the first time.</p>
         </div>
         <div className="col-md-7 order-md-1" data-aos="fade-up">
-          <img src={journey} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
+          <img src={journey04} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="600" />
         </div>
       </div>
 

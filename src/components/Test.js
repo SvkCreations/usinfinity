@@ -32,7 +32,29 @@ export default function Quiz() {
       question: "When did we go to watch IPL at the Eden Gardens?",
       options: ["14th April, 2024", "20th April, 2024", "3rd May, 2024", "29th April, 2024"],
       answer: "14th April, 2024"
+    },
+    {
+      question: "When did we go to Dakshineshwar for Puja?",
+      options: ["9th Aug, 2024", "15th Jun, 2024", "29th June, 2024", "13th July, 2024"],
+      answer: "29th June, 2024"
+    },
+    {
+      question: "What was the first restaurant where we had lunch?",
+      options: ["Arsalan", "Rang de Basanti Dhaba", "Chowman", "Shanghai" ],
+      answer: "Rang de Basanti Dhaba"
+    },
+    {
+      question: "Where did we watch Stree 2?",
+      options: ["Hiland Park", "Priya Cinemas", "SVF: Narendrapur", "Navina Cinema"],
+      answer: "Navina Cinema"
+    },
+    {
+      question: "Where did we celebrate our first holi?",
+      options: ["Dhakuria Lake", "Victoria Memorial", "Nandan", "Upohar"],
+      answer: "Dhakuria Lake"
     }
+    
+    
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);

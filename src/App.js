@@ -21,7 +21,6 @@ import Test from './components/Test';
 import Playlist from './components/Playlist'
 import ConfettiEffect from './components/ConfettiEffect';
 import BirthdayCountdown from './components/BirthdayCountdown';
-import QuotesComponent from './components/Quotes';
 import DreamsAndGoals from './components/Goals';
 import Places from './components/Places';
 

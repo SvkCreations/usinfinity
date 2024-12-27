@@ -38,9 +38,11 @@
   
   .scroll-button.left {
     left: 0;
+    background: #365c1e8b;
   }
   
   .scroll-button.right {
     right: 0;
+    background: #365c1e8b;
   }
   
