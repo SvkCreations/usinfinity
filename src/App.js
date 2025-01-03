@@ -53,7 +53,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route index element={
+        <Route path='/usinfinity' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <ConfettiEffect />
