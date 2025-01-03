@@ -37,8 +37,9 @@ function App() {
   }, []);
   return (
     <Router>
+      
       <Routes>
-        <Route path='/usinfinity' element={
+      <Route path='/' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <ConfettiEffect />
@@ -52,7 +53,21 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/gallery' element={
+        <Route index element={
+          <div className="App p-4 p-md-4 mx-0 mx-md-5">
+            <Navbar />
+            <ConfettiEffect />
+            <Hero />
+            <Cake />
+            <GalleryFeaturette />
+            <JourneyFeaturette />
+            <Places images={images}/>
+            <ScrollToTop />
+            <Footer />
+          </div>
+        }></Route>
+
+        <Route path='gallery' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Gallery />
@@ -61,7 +76,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/journey' element={
+        <Route path='journey' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Journey />
@@ -70,7 +85,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/about' element={
+        <Route path='about' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <About />
@@ -81,7 +96,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/quiz' element={
+        <Route path='quiz' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Test />
@@ -90,7 +105,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/playlist' element={
+        <Route path='playlist' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Playlist />
@@ -99,7 +114,7 @@ function App() {
           </div>
         }></Route>
 
-        <Route path='/countdown' element={
+        <Route path='countdown' element={
           <div className="App" style={{maxHeight:'100vh', overflowY:'hidden'}}>
             <BirthdayCountdown/>
           </div>
