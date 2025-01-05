@@ -23,6 +23,7 @@ import ConfettiEffect from './components/ConfettiEffect';
 import BirthdayCountdown from './components/BirthdayCountdown';
 import DreamsAndGoals from './components/Goals';
 import Places from './components/Places';
+import GiftBox from './components/GiftBox';
 
 function App() {
   function importAllImages(r) {
@@ -117,6 +118,15 @@ function App() {
         <Route path='countdown' element={
           <div className="App" style={{maxHeight:'100vh', overflowY:'hidden'}}>
             <BirthdayCountdown/>
+          </div>
+        }></Route>
+
+        <Route path='gift' element={
+          <div className="App p-4 p-md-4 mx-0 mx-md-5">
+            <Navbar />
+            <GiftBox/>
+            <ScrollToTop />
+            <Footer />
           </div>
         }></Route>
 

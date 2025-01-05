@@ -36,8 +36,9 @@ export default function Navbar() {
                 <Link to='/countdown' className={location.pathname === '/countdown' ? "active nav-link" : "nav-link"}>Countdown</Link>
               </li>
             </ul>
-            <div className="d-flex align-items-center gap-3" role="search">
-              <Link to='/quiz' className="d-flex align-items-center p-2 gap-1 quiz-link mx-md-3 my-2 my-md-0"><Icon icon="mage:light-bulb" width="24" height="24" />Take a Quiz</Link>
+            <div className="d-flex align-items-center gap-2">
+              <Link to='/gift' className="d-flex align-items-center p-2 btn primary-btn"><Icon icon="mage:light-bulb" width="24" height="24" />Your Gift</Link>
+              <Link to='/quiz' className="d-flex align-items-center p-2 gap-1 btn secondary-btn"><Icon icon="mage:light-bulb" width="24" height="24" />Take a Quiz</Link>
             </div>
           </div>
         </div>

@@ -29,8 +29,8 @@ export default function Gallery() {
   return (
     <div>
       <div className="py-3 my-3" id="custom-cards">
-        <div class="p-4 p-md-5 rounded text-body-emphasis bg-body-secondary">
-          <div class="col-lg-6 px-0">
+        <div className="p-4 p-md-5 rounded text-body-emphasis bg-body-secondary">
+          <div className="col-lg-6 px-0">
             <h1 className="featurette-heading fw-bold display-1" data-aos="fade-up">Our Gallery</h1>
             <p className='col col-md-10'>Welcome to our photo gallery! This space is a collection of moments we've shared—adventures, milestones, and little snippets of our everyday lives. Each photo tells a story, and together, they create a visual journey of our time together. Whether it's a candid shot from a spontaneous outing or a cherished memory from a special day, these pictures capture the essence of our love and the memories we've built.</p>
           </div>

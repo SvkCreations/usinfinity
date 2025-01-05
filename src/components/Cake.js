@@ -1,5 +1,6 @@
 import React from 'react'
-import cake from '../images/cake.png'
+import Lottie from "lottie-react";
+import cakeAnimation from "../assets/cake.json";
 
 export default function Cake() {
     return (
@@ -12,7 +13,7 @@ export default function Cake() {
                         On your birthday and always, know that you are my heart, my home, and my greatest blessing. I love you more than words can ever express, and I’m so excited for all the beautiful memories we have yet to create together.</p>
                 </div>
                 <div className="col-md-4 order-md-1" data-aos="fade-up">
-                    <img src={cake} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5" width="500" height="500" />
+                    <Lottie className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" animationData={cakeAnimation} loop={true} />
                 </div>
             </div>
         </div>

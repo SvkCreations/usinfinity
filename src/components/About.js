@@ -1,13 +1,12 @@
 import React from 'react'
 import about from '../images/about.jpg'
-import DreamsAndGoals from './Goals'
 
 export default function About() {
   return (
     <div>
       <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 mt-0 mt-md-2 py-0 py-md-4">
         <div className="col-12 col-sm-12 col-lg-6" data-aos="fade-up">
-          <img src={about} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width='500' loading="lazy" />
+          <img src={about} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width='500' loading="lazy" />
         </div>
         <div className="col-lg-6" data-aos="fade-up">
           <h1 className="display-1 fw-bold text-body-emphasis lh-1 mb-2">The Lyadkhor Couple</h1>
