@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/usinfinity/static/css/main.860adc9e.css",
-    "main.js": "/usinfinity/static/js/main.e59b4008.js",
+    "main.css": "/usinfinity/static/css/main.04542ec4.css",
+    "main.js": "/usinfinity/static/js/main.9f890600.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey04-01.png": "/usinfinity/static/media/journey04-01.6dd28378be3b45b4117b.png",
     "static/media/journey01-01.png": "/usinfinity/static/media/journey01-01.bbd13277e8f376b58915.png",
@@ -39,7 +39,6 @@
     "static/media/puja patuli_2024.jpg": "/usinfinity/static/media/puja patuli_2024.ffb647652d953a989363.jpg",
     "static/media/hiland park_2023.jpg": "/usinfinity/static/media/hiland park_2023.5dfdeda8de0070a24d0a.jpg",
     "static/media/hiland park 02_2023.jpg": "/usinfinity/static/media/hiland park 02_2023.ba4ef50c0bba63d9b606.jpg",
-    "static/media/cake.png": "/usinfinity/static/media/cake.5f5eca39f22008d43a7c.png",
     "static/media/science city 02_2024.jpg": "/usinfinity/static/media/science city 02_2024.a9afc9239b87074e1731.jpg",
     "static/media/holi02_2024.jpg": "/usinfinity/static/media/holi02_2024.ddb65b9858ae496cedd3.jpg",
     "static/media/quest.jpg": "/usinfinity/static/media/quest.229670e8f9405fe3249e.jpg",
@@ -74,12 +73,12 @@
     "static/media/nandan 04_2024.jpg": "/usinfinity/static/media/nandan 04_2024.2dacbc378cdda802ea15.jpg",
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
-    "main.860adc9e.css.map": "/usinfinity/static/css/main.860adc9e.css.map",
-    "main.e59b4008.js.map": "/usinfinity/static/js/main.e59b4008.js.map",
+    "main.04542ec4.css.map": "/usinfinity/static/css/main.04542ec4.css.map",
+    "main.9f890600.js.map": "/usinfinity/static/js/main.9f890600.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.860adc9e.css",
-    "static/js/main.e59b4008.js"
+    "static/css/main.04542ec4.css",
+    "static/js/main.9f890600.js"
   ]
 }
