@@ -37,7 +37,7 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="d-flex align-items-center gap-2">
-              <Link to='/gift' className="d-flex align-items-center p-2 btn primary-btn"><Icon icon="mage:light-bulb" width="24" height="24" />Your Gift</Link>
+              <Link to='/gift' className="d-flex align-items-center p-2 gap-1 btn primary-btn"><Icon icon="mdi:gift-outline" width="20" height="20" />Your Gift</Link>
               <Link to='/quiz' className="d-flex align-items-center p-2 gap-1 btn secondary-btn"><Icon icon="mage:light-bulb" width="24" height="24" />Take a Quiz</Link>
             </div>
           </div>
