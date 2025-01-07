@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/usinfinity/static/css/main.04542ec4.css",
-    "main.js": "/usinfinity/static/js/main.9f890600.js",
+    "main.js": "/usinfinity/static/js/main.a3958904.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey04-01.png": "/usinfinity/static/media/journey04-01.6dd28378be3b45b4117b.png",
     "static/media/journey01-01.png": "/usinfinity/static/media/journey01-01.bbd13277e8f376b58915.png",
     "static/media/journey03-01.png": "/usinfinity/static/media/journey03-01.6791b5f8840db9114332.png",
     "static/media/journey02-01.png": "/usinfinity/static/media/journey02-01.5d6c841cdf220e23cfec.png",
+    "static/media/eden.jpg": "/usinfinity/static/media/eden.5e8e2fbdaa2c4eb07031.jpg",
     "static/media/puja03_2024.jpg": "/usinfinity/static/media/puja03_2024.7787e12baaab916fbd39.jpg",
     "static/media/puja02_2024.jpg": "/usinfinity/static/media/puja02_2024.4b78a789b8491eeff8be.jpg",
     "static/media/journey.png": "/usinfinity/static/media/journey.fdef5815cfcc8b6a06a4.png",
@@ -74,11 +75,11 @@
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
     "main.04542ec4.css.map": "/usinfinity/static/css/main.04542ec4.css.map",
-    "main.9f890600.js.map": "/usinfinity/static/js/main.9f890600.js.map",
+    "main.a3958904.js.map": "/usinfinity/static/js/main.a3958904.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04542ec4.css",
-    "static/js/main.9f890600.js"
+    "static/js/main.a3958904.js"
   ]
 }
