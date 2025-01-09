@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/usinfinity/static/css/main.04542ec4.css",
-    "main.js": "/usinfinity/static/js/main.a3958904.js",
+    "main.js": "/usinfinity/static/js/main.0835a537.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey04-01.png": "/usinfinity/static/media/journey04-01.6dd28378be3b45b4117b.png",
     "static/media/journey01-01.png": "/usinfinity/static/media/journey01-01.bbd13277e8f376b58915.png",
@@ -46,6 +46,7 @@
     "static/media/sealdah_2024.jpg": "/usinfinity/static/media/sealdah_2024.5465747c213393bc27d1.jpg",
     "static/media/victoria.jpg": "/usinfinity/static/media/victoria.c627c01eff6d835164f0.jpg",
     "static/media/quest mall_2024.jpg": "/usinfinity/static/media/quest mall_2024.012af0b020b46bbc2c01.jpg",
+    "static/media/acropolis.jpg": "/usinfinity/static/media/acropolis.2a4c664c53a828430d77.jpg",
     "static/media/st_pauls_cathedral.jpeg": "/usinfinity/static/media/st_pauls_cathedral.1368a3dadd0574595e68.jpeg",
     "static/media/fair_2024.jpg": "/usinfinity/static/media/fair_2024.212ab816a28a65f5c9db.jpg",
     "static/media/princep ghat_2023.jpg": "/usinfinity/static/media/princep ghat_2023.1737bec494b648a3a948.jpg",
@@ -75,11 +76,11 @@
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
     "main.04542ec4.css.map": "/usinfinity/static/css/main.04542ec4.css.map",
-    "main.a3958904.js.map": "/usinfinity/static/js/main.a3958904.js.map",
+    "main.0835a537.js.map": "/usinfinity/static/js/main.0835a537.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04542ec4.css",
-    "static/js/main.a3958904.js"
+    "static/js/main.0835a537.js"
   ]
 }
