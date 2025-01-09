@@ -24,6 +24,7 @@ import BirthdayCountdown from './components/BirthdayCountdown';
 import DreamsAndGoals from './components/Goals';
 import Places from './components/Places';
 import GiftBox from './components/GiftBox';
+import Quotes from './components/Quotes';
 
 function App() {
   function importAllImages(r) {
@@ -110,6 +111,7 @@ function App() {
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
             <Navbar />
             <Playlist />
+            <Quotes/>
             <ScrollToTop />
             <Footer />
           </div>

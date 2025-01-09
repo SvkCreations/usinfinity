@@ -4,10 +4,10 @@ const DreamsAndGoals = () => {
     const [dreams, setDreams] = useState(() => {
         const savedDreams = localStorage.getItem('dreams');
         return savedDreams ? JSON.parse(savedDreams) : [
-            "Travel to Japan together",
-            "Buy our dream home",
-            "Start a small garden",
-            "Learn a new language as a couple"
+            "Roam around Kolkata at night",
+            "Decorate our own house together",
+            "Get married",
+            "Buy a couple t-shirt"
         ];
     });
     const [newDream, setNewDream] = useState("");
@@ -25,17 +25,18 @@ const DreamsAndGoals = () => {
 
     return (
         <div className='my-5 py-4'>
-            <h1 className='display-4 fw-bold text-center'>Our Dreams & Goals</h1>
+            <h1 className='display-4 fw-bold text-center' data-aos="fade-up">Our Dreams & Goals</h1>
             <ul style={{ listStyle: 'none', padding: 0 }}>
                 {dreams.map((dream, index) => (
-                    <li key={index} style={{
-                        background: '#f3e5f5',
+                    <li className='fw-bold' data-aos="fade-up" key={index} style={{
+                        background: '#90B494',
                         padding: '10px',
+                        color:'black',
                         borderRadius: '8px',
                         margin: '10px 0',
                         boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
                     }}>
-                        {dream}
+                        {index+1}. {dream}
                     </li>
                 ))}
             </ul>
