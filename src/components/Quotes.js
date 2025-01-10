@@ -3,17 +3,19 @@ function Quotes() {
   const [quote, setQuote] = useState(null);
   const [author, setAuthor] = useState(null);
   useEffect(() => {
-    fetch("https://favqs.com/api/qotd",{
+    const proxyUrl = "https://api.allorigins.win/get?url="; // CORS proxy
+      const targetUrl = encodeURIComponent("https://favqs.com/api/qotd");
+    fetch(`${proxyUrl}${targetUrl}`,{
         headers: {
           "Accept": "application/json",
-        //   "X-TheySaidSo-Api-Secret": apiKey, // Add API key here
         },
       })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.quote);
-        setQuote(data.quote.body)
-        setAuthor(data.quote.author)
+        let content = JSON.parse(data.contents)
+        console.log(content);
+        setQuote(content.quote.body)
+        setAuthor(content.quote.author)
       })
       .catch((error) => console.log(error));
   }, []);
