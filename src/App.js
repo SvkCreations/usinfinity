@@ -25,6 +25,7 @@ import DreamsAndGoals from './components/Goals';
 import Places from './components/Places';
 import GiftBox from './components/GiftBox';
 import Quotes from './components/Quotes';
+import Jokes from './components/Jokes';
 
 function App() {
   function importAllImages(r) {
@@ -50,6 +51,7 @@ function App() {
             <GalleryFeaturette />
             <JourneyFeaturette />
             <Places images={images}/>
+            <Jokes/>
             <ScrollToTop />
             <Footer />
           </div>
@@ -64,6 +66,7 @@ function App() {
             <GalleryFeaturette />
             <JourneyFeaturette />
             <Places images={images}/>
+            <Jokes/>
             <ScrollToTop />
             <Footer />
           </div>

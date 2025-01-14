@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import JourneyFeaturette from './JourneyFeaturette';
+import ShareScreenshot from './ShareScreenshot';
 
 export default function Quiz() {
   const questions = [
@@ -20,7 +21,7 @@ export default function Quiz() {
     },
     {
       question: "When did I propose to you?",
-      options: ["14th Nov, 2024", "10th Feb, 2024", "18th November, 2024", "14th Feb, 2024" ],
+      options: ["14th Nov, 2024", "10th Feb, 2024", "18th November, 2024", "14th Feb, 2024"],
       answer: "14th Feb, 2024"
     },
     {
@@ -40,7 +41,7 @@ export default function Quiz() {
     },
     {
       question: "What was the first restaurant where we had lunch?",
-      options: ["Arsalan", "Rang de Basanti Dhaba", "Chowman", "Shanghai" ],
+      options: ["Arsalan", "Rang de Basanti Dhaba", "Chowman", "Shanghai"],
       answer: "Rang de Basanti Dhaba"
     },
     {
@@ -53,8 +54,8 @@ export default function Quiz() {
       options: ["Dhakuria Lake", "Victoria Memorial", "Nandan", "Upohar"],
       answer: "Dhakuria Lake"
     }
-    
-    
+
+
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -82,9 +83,16 @@ export default function Quiz() {
         <p>Test how well you remember our special moments. Have fun!</p>
       </div>
       {showScore ? (
-        <div className="alert alert-success text-center" role="alert">
-          You scored {score} out of {questions.length}!
-        </div>
+        <>
+          <div className="alert alert-success text-center" role="alert">
+            You scored {score} out of {questions.length}!
+          </div>
+          {/* <div className="text-center mt-4 mb-5">
+            <p className='lead fw-bold p-0 m-0'>Now take a screenshot.</p>
+            <p>And send Soubhik.</p>
+          </div> */}
+          <ShareScreenshot/>
+        </>
       ) : (
         <div className="card text-center">
           <div className="card-body">
