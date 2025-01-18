@@ -1,46 +1,44 @@
-import React, { useRef } from "react";
-import html2canvas from "html2canvas";
-import { Icon } from "@iconify/react/dist/iconify.js";
+import React from 'react';
+import html2canvas from 'html2canvas';
+import { Icon } from '@iconify/react/dist/iconify.js';
 
 const ShareScreenshot = () => {
-  const captureRef = useRef(null);
+  const handleFullPageCaptureAndShare = async () => {
+    const canvas = await html2canvas(document.body, {
+      scrollY: -window.scrollY, // Capture scrolled content
+      windowWidth: document.documentElement.scrollWidth,
+      windowHeight: document.documentElement.scrollHeight,
+    });
 
-  const captureAndShare = async () => {
-    if (!navigator.canShare || !navigator.canShare({ files: [] })) {
-      alert("Sharing is not supported on this browser.");
-      return;
-    }
+    canvas.toBlob(async (blob) => {
+      const file = new File([blob], 'MyScore.png', { type: 'image/png' });
 
-    try {
-      // Capture the screenshot
-      const canvas = await html2canvas(captureRef.current);
-      const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
-
-      // Create a File object
-      const file = new File([blob], "screenshot.png", { type: "image/png" });
-
-      // Trigger OS share dialog
-      await navigator.share({
-        title: "Shared Screenshot",
-        text: "Check out this screenshot!",
-        files: [file],
-      });
-
-      alert("Screenshot shared successfully!");
-    } catch (error) {
-      console.error("Error sharing screenshot:", error);
-      alert("Failed to share screenshot.");
-    }
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({
+            title: 'My Score',
+            text: 'Check out my score of our quiz!',
+            files: [file],
+          });
+        } catch (error) {
+          alert('Sharing failed: ' + error.message);
+        }
+      } else {
+        const link = document.createElement('a');
+        link.download = 'MyScore.png';
+        link.href = canvas.toDataURL();
+        link.click();
+        alert('Sharing not supported. Screenshot downloaded instead.');
+      }
+    });
   };
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center">
-      <div className="mt-3" ref={captureRef}>
-        <h4 className="text-center">Now share it with Soubhik.</h4>
-      </div>
-      <button className="text-center mt-2 btn secondary-btn d-flex align-items-center gap-2" onClick={captureAndShare}>
-      <Icon icon="mynaui:share" width="24" height="24" />Share Screenshot
-      </button>
+    <div className='my-5 my-md-5 d-flex flex-column align-items-center justify-content-center'>
+      <p className='fw-bold'>Now share your score with your partner!</p>
+    <button className='d-flex align-items-center gap-2 btn secondary-btn' onClick={handleFullPageCaptureAndShare}>
+    <Icon icon="tabler:share" width="24" height="24" />Share my score
+    </button>
     </div>
   );
 };
