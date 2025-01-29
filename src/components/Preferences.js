@@ -3,7 +3,7 @@ import JourneyFeaturette from './JourneyFeaturette'
 
 export default function Preferences() {
     return (
-        <div className='my-5 py-0 py-md-5'>
+        <div className='my-5 py-5'>
             <h1 className="display-1 fw-bold text-body-emphasis lh-1 mb-2" data-aos='fade-up'>Our Preferences</h1>
             <table className="table mt-4">
                 <thead>

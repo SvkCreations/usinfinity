@@ -135,3 +135,8 @@ h1 {
 .times{
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* JourneyFeaturette CSS */
+.blur-text {
+  filter: blur(2px);
+}

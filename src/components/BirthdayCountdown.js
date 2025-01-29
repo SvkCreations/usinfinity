@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 
 const BirthdayCountdown = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -10,6 +11,7 @@ const BirthdayCountdown = () => {
 
   // Define the birthday date (change this to the birthday date)
   const birthdayDate = new Date('2025-02-14T00:00:00');
+  const navigate = useNavigate();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -19,6 +21,7 @@ const BirthdayCountdown = () => {
       if (timeDiff <= 0) {
         clearInterval(interval); // Stop the countdown when the birthday is reached
         setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        navigate("/usinfinity");
       } else {
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
