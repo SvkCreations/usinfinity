@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
 
 /* Colour Code: #D64045, #E9FFF9, #9ED8DB, #467599, #1D3354, #365c1e */
 
@@ -11,6 +12,7 @@ body {
 
 .nav-link {
   color: black;
+  font-size: 16px;
 }
 
 .nav-link::after {
@@ -23,22 +25,17 @@ body {
 
 .active {
   background: none !important;
-  color: black !important;
+  color: #365c1e !important;
+  font-weight: bold;
 }
 
-.active::after {
-  content: "";
-  display: flex;
-  height: 3px;
-  width: 40px;
-  background-color: #365c1e;
-}
+
 
 .nav-link:hover {
   color: #365c1e;
 }
 
-.nav-link:hover::after {
+/* .nav-link:hover::after {
   content: "";
   display: flex;
   align-items: center;
@@ -46,7 +43,7 @@ body {
   width: 40px;
   background-color: #365c1e;
   transition-duration: .5s;
-}
+} */
 .quiz-link{
   background-color: #365c1e;
   border: 2px solid #365c1e;

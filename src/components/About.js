@@ -8,7 +8,7 @@ export default function About() {
       <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 mt-0 mt-md-2 py-0">
         <div className="col-12 col-sm-12 col-lg-6" data-aos="fade-up">
           {/* <img src={about} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width='500' loading="lazy" /> */}
-          <Lottie className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" animationData={about} style={{maxWidth:'500px'}} loop={true} />
+          <Lottie className="bd-placeholder-img bd-placeholder-img- img-fluid featurette-image mx-auto" animationData={about} style={{maxWidth:'500px'}} loop={true} />
         </div>
         <div className="col-lg-6" data-aos="fade-up">
           <h1 className="display-1 fw-bold text-body-emphasis lh-1 mb-2">The Lyadkhor Couple</h1>

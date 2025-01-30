@@ -17,7 +17,7 @@ export default function GalleryFeaturette() {
                 </div>
                 <div className='d-flex flex-column align-items-center' style={{ cursor: 'pointer' }}>
                     <p className='lead col-12 col-md-10 col-lg-8 text-center' data-aos="fade-up">As this year comes to a close, I can’t help but reflect on how incredible it’s been with you by my side. From our adventures to quiet moments, every day felt special because of you. We laughed, learned, and grew together, creating memories I’ll treasure forever. </p>
-                    <Link onClick={() => { window.scrollTo(0, 0) }} to='/gallery' className="btn secondary-btn fw-bold d-flex align-items-center gap-2 justify-content-center" data-aos="fade-up" style={{ color: '#365c1e' }}><Icon icon="solar:gallery-bold" width="20" height="20" />Explore Gallery</Link>
+                    <Link onClick={() => { window.scrollTo(0, 0) }} to='/gallery' className="btn secondary-btn d-flex align-items-center gap-2 justify-content-center" data-aos="fade-up"><Icon icon="solar:gallery-bold" width="20" height="20" />Explore Gallery</Link>
                 </div>
                 <div className="my-4 row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-2">
                     {gallery.map((img) => (

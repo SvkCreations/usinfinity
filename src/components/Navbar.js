@@ -18,22 +18,22 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className={location.pathname === '/usinfinity/' ? "active nav-link" : "nav-link"} aria-current="page" to="/usinfinity/">Home</Link>
+                <Link className={location.pathname === '/usinfinity/' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"} aria-current="page" to="/usinfinity/"><Icon icon="mynaui:home" width="24" height="24" />Home</Link>
               </li>
               <li className="nav-item">
-                <Link className={location.pathname === '/about' ? "active nav-link" : "nav-link"} to="/about">About us</Link>
+                <Link className={location.pathname === '/about' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"} to="/about"><Icon icon="ix:about" width="24" height="24" />About us</Link>
               </li>
               <li className="nav-item">
-                <Link className={location.pathname === '/journey' ? "active nav-link" : "nav-link"} to="/journey">Our Journey</Link>
+                <Link className={location.pathname === '/journey' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"} to="/journey"><Icon icon="lsicon:path-filled" width="24" height="24" />Our Journey</Link>
               </li>
               <li className="nav-item">
-                <Link to='/gallery' className={location.pathname === '/gallery' ? "active nav-link" : "nav-link"}>Our Gallery</Link>
+                <Link to='/gallery' className={location.pathname === '/gallery' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"}><Icon icon="solar:gallery-bold" width="20" height="20" />Our Gallery</Link>
               </li>
               <li className="nav-item">
-                <Link to='/playlist' className={location.pathname === '/playlist' ? "active nav-link" : "nav-link"}>Our Playlist</Link>
+                <Link to='/playlist' className={location.pathname === '/playlist' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"}><Icon icon="solar:playlist-linear" width="24" height="24" />Our Playlist</Link>
               </li>
               <li className="nav-item">
-                <Link to='/countdown' className={location.pathname === '/countdown' ? "active nav-link" : "nav-link"}>Countdown</Link>
+                <Link to='/countdown' className={location.pathname === '/countdown' ? "active nav-link d-flex align-items-center gap-2" : "nav-link d-flex align-items-center gap-2"}><Icon icon="ph:clock-countdown-bold" width="24" height="24" />Countdown</Link>
               </li>
             </ul>
             <div className="d-flex align-items-center gap-2">

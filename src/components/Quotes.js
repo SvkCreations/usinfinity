@@ -13,7 +13,6 @@ function Quotes() {
       .then((response) => response.json())
       .then((data) => {
         let content = JSON.parse(data.contents)
-        console.log(content);
         setQuote(content.quote.body)
         setAuthor(content.quote.author)
       })

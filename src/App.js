@@ -27,6 +27,7 @@ import GiftBox from './components/GiftBox';
 import Quotes from './components/Quotes';
 import Jokes from './components/Jokes';
 
+
 function App() {
   function importAllImages(r) {
     return r.keys().map(r);
@@ -59,7 +60,7 @@ function App() {
 
         <Route path='/usinfinity' element={
           <div className="App p-4 p-md-4 mx-0 mx-md-5">
-            <Navbar />
+            <Navbar/>
             <ConfettiEffect />
             <Hero />
             <Cake />
