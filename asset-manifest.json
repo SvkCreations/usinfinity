@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/usinfinity/static/css/main.413cbb5a.css",
-    "main.js": "/usinfinity/static/js/main.b8d7eeb7.js",
+    "main.js": "/usinfinity/static/js/main.1fc3556a.js",
     "static/js/453.e089efe3.chunk.js": "/usinfinity/static/js/453.e089efe3.chunk.js",
     "static/media/journey04-01.png": "/usinfinity/static/media/journey04-01.6dd28378be3b45b4117b.png",
     "static/media/journey01-01.png": "/usinfinity/static/media/journey01-01.bbd13277e8f376b58915.png",
@@ -28,6 +28,7 @@
     "static/media/victoria 02_2024.jpg": "/usinfinity/static/media/victoria 02_2024.c3e48c5dd0787cb1ab77.jpg",
     "static/media/lake birthday_2024.jpg": "/usinfinity/static/media/lake birthday_2024.2dc42236cb686e2db6c8.jpg",
     "static/media/hiland_park.jpg": "/usinfinity/static/media/hiland_park.dfb3868fe7e966d7bf4f.jpg",
+    "static/media/hbd_dwn.jpg": "/usinfinity/static/media/hbd_dwn.ba8ac1e2466e88e214a1.jpg",
     "static/media/lake birthday 02_2024.jpg": "/usinfinity/static/media/lake birthday 02_2024.18d2cb3996d0f2898267.jpg",
     "static/media/dakshineshwar 02_2024.jpg": "/usinfinity/static/media/dakshineshwar 02_2024.0b07f1f336f32a6c8524.jpg",
     "static/media/momo mia_2024.jpg": "/usinfinity/static/media/momo mia_2024.ddc670fd2828afd50f36.jpg",
@@ -56,7 +57,6 @@
     "static/media/eden ipl_2024.jpg": "/usinfinity/static/media/eden ipl_2024.98e2c6d11517b7613501.jpg",
     "static/media/priya.jpg": "/usinfinity/static/media/priya.17bafe40f1095d71d5eb.jpg",
     "static/media/puja chowman_2024.jpg": "/usinfinity/static/media/puja chowman_2024.bc55d341230ef1197f80.jpg",
-    "static/media/about.jpg": "/usinfinity/static/media/about.9d1f0c71e8bcec293781.jpg",
     "static/media/udys birthday valentines day propose day03_2024.jpg": "/usinfinity/static/media/udys birthday valentines day propose day03_2024.6b458e377610e5706b26.jpg",
     "static/media/udys birthday valentines day propose day02_2024.jpg": "/usinfinity/static/media/udys birthday valentines day propose day02_2024.1fbc2c59b2f4e6ca0155.jpg",
     "static/media/hiland park 03_2024.jpg": "/usinfinity/static/media/hiland park 03_2024.cab5529f1c05624f97e1.jpg",
@@ -76,11 +76,11 @@
     "static/media/Logo.png": "/usinfinity/static/media/Logo.66541d23e0a9eb6268e4.png",
     "index.html": "/usinfinity/index.html",
     "main.413cbb5a.css.map": "/usinfinity/static/css/main.413cbb5a.css.map",
-    "main.b8d7eeb7.js.map": "/usinfinity/static/js/main.b8d7eeb7.js.map",
+    "main.1fc3556a.js.map": "/usinfinity/static/js/main.1fc3556a.js.map",
     "453.e089efe3.chunk.js.map": "/usinfinity/static/js/453.e089efe3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.413cbb5a.css",
-    "static/js/main.b8d7eeb7.js"
+    "static/js/main.1fc3556a.js"
   ]
 }
