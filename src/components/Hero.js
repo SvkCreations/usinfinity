@@ -3,7 +3,7 @@ import hero from '../images/hero.png'
 import { Icon } from "@iconify/react";
 import { Link } from 'react-router';
 import party from 'party-js';
-import img from '../images/about.jpg'
+import img from '../images/hbd_dwn.jpg'
 
 export default function Hero() {
   const downloadBtnClick = (event) => {
